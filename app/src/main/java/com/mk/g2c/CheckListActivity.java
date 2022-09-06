@@ -60,10 +60,7 @@ public class CheckListActivity extends AppCompatActivity {
         binding.back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(CheckListActivity.this,MainActivity.class);
-                startActivity(i);
-                finish();
-                Animatoo.animateSlideRight(CheckListActivity.this);
+                onBackPressed();
             }
         });
 
@@ -210,4 +207,12 @@ public class CheckListActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent i = new Intent(CheckListActivity.this,MainActivity.class);
+        startActivity(i);
+        finish();
+        Animatoo.animateSlideRight(CheckListActivity.this);
+    }
 }
