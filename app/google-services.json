@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215718880466",
+    "project_id": "g2c-app-b3cb0",
+    "storage_bucket": "g2c-app-b3cb0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215718880466:android:19e642da30f2dea6c0790b",
+        "android_client_info": {
+          "package_name": "com.mk.g2c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215718880466-07bmdg9072kp85iqvm2b6k37ie5ameah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mk.g2c",
+            "certificate_hash": "3337b100024c09f20d2a8ed7042d461fec1d7729"
+          }
+        },
+        {
+          "client_id": "215718880466-l9eu7ag76dehgqvtpo0ea1ig8po6im3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD96kikxMA21v-JnpWqAFSU-2sR-84EUQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215718880466-l9eu7ag76dehgqvtpo0ea1ig8po6im3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
